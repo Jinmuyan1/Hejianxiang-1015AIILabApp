@@ -13,7 +13,7 @@ namespace LabAss4
         protected void Page_Load(object sender, EventArgs e)
         {
             string[] towns = { "Sofia", "Plovdiv", "Varna" };
-            ListBox1.DataSource = towns;
+            /*ListBox1.DataSource = towns;
             ListBox1.DataBind();
 
             DropDownList1.DataSource = towns;
@@ -28,6 +28,7 @@ namespace LabAss4
             RadioButtonList1.DataSource = towns;
             RadioButtonList1.DataBind();
 
+            */
         }
     }
 }
